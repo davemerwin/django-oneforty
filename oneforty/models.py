@@ -14,7 +14,7 @@ class Update(models.Model):
     sender = models.ForeignKey(User)
     
     def get_absolute_url(self):
-        return ("single_tweet", [self.id])
+        return ("single_update", [self.id])
     get_absolute_url = models.permalink(get_absolute_url)
     
     class Meta:
