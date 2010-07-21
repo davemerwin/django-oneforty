@@ -1,0 +1,1 @@
+This is a simplified microblogging tool. This tool is designed to provide microblogging for your app without all the dependencies.
