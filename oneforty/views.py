@@ -4,25 +4,30 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render_to_response
 from django.template import RequestContext
 
-from 140.models import Update
+from oneforty.models import Update
 
 @login_required
-def update(request, username):
+def oneforty_update(request, username):
     """
     Create the actual update
     """
     
-def list_all(request):
+def oneforty_reply(request, username, id):
+    """
+    Create a reply
+    """
+    
+def oneforty_list_all(request):
     """
     Get all of the updates
     """
     
-def user_list(request, username):
+def oneforty_user_list(request, username):
     """
     Get all the updates for a user
     """
     
-def update_detail(request, username, id):
+def oneforty_update_detail(request, username, id):
     """
     The permalink for an update
     """

@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='django-140',
-    version=__import__('140').__version__,
-    description='django-140 is designed to be a simple, lightweight status/update engine.',
+    name='django-oneforty',
+    version=__import__('oneforty').__version__,
+    description='django-oneforty is designed to be a simple, lightweight status/update engine.',
     long_description=open('README.txt').read(),
     author='Pure Blue Inc',
     author_email='dave@purebluedesign.com',
-    url='http://github.com/davemerwin/django-140/tree/master',
-    download_url='http://github.com/davemerwin/django-140/archives/master',
+    url='http://github.com/davemerwin/django-oneforty/tree/master',
+    download_url='http://github.com/davemerwin/django-oneforty/archives/master',
     license='BSD',
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,
