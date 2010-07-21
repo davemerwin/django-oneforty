@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='microblogging',
-    version=__import__('microblogging').__version__,
-    description='microblogging is design to be a simple, lightweight status/update engine.',
+    name='django-updater',
+    version=__import__('django-updater').__version__,
+    description='django-updater is designed to be a simple, lightweight status/update engine.',
     long_description=open('README.txt').read(),
     author='Pure Blue Inc',
     author_email='dave@purebluedesign.com',
